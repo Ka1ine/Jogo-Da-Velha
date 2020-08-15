@@ -1,0 +1,63 @@
+.jogo_da_velha{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+    
+.jogador1,
+.jogador2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.botao{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.botao_style{
+    background-color: #72ddb4;
+    color: rgb(0, 0, 0);
+    border: 2px solid #72ddb4;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 150px;
+    height: 50px;
+}
+
+.botao_style:hover{
+    background-color: white;
+    color:rgba(2, 1, 2, 0.671);
+    border: 2px solid #72ddb4;
+}
+    
+
+.tabela_geral{ 
+    border-collapse: collapse;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.grid{    
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 4px solid;
+    border-color: rgb(35, 228, 147);
+}
+
+.bloco{
+    background-color:rgba(166, 104, 224, 0.384);
+    border-radius: 100px;
+}
+
+
